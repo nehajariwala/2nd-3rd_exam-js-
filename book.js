@@ -26,7 +26,7 @@ const uimaker=(product)=>{
 
         
         buy.addEventListener("click",()=>{
-          
+            // window.location.href="/buy.html";
             cart.push(ele)
             localStorage.setItem("cart",JSON.stringify(cart));
     

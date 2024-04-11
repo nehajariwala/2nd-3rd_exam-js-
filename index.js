@@ -18,7 +18,7 @@ const handaldata=(e)=>{
    product.push(data);
  
    localStorage.setItem("data",JSON.stringify(product));
-
+   // window.location.href="/book.html";
 }
 
 
