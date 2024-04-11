@@ -1,0 +1,32 @@
+#container{
+    display: grid;
+   grid-template-columns:repeat(4,1fr);
+   text-align: center;
+   margin-top: 40px;
+ 
+}
+#container div{
+    border: 2px solid #B3C8CF;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #B3C8CF;
+}
+#container img{
+    height: 150px;
+    width:150px;
+}
+#container button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: red;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 900;
+    
+}
