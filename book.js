@@ -39,7 +39,7 @@ const uimaker=(product)=>{
       
         del.addEventListener("click",()=>{
           product.splice(i,1)
-          uimaker();
+          uimaker(product);
           localStorage.setItem("data",JSON.stringify(product));
          
   
